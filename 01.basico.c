@@ -24,7 +24,7 @@ int main(void){
 	printf("Ingrese valor tipo real: \n");
 	scanf("%f.2", &NumReal); //Usamos '%f' para indicar tipo de dato float, '&' antes de varibale para indicar la direccion de memoria de la misma
 	printf("\n");	
-    getchar(); //Para que tome el caracter proximo
+        getchar(); //Para que tome el caracter proximo
 	printf("Ingrese valor tipo caracter: \n");
 	scanf("%c", &Carac); //Usamos '%d' para indicar tipo de dato character, '&' antes de varibale para indicar la direccion de memoria de la misma
 	printf("\n");
